@@ -2,62 +2,75 @@
 
 /* Text inside these asterisks and slashes are comments for human */
 
-  a {
-    color: blue;  /* set the text color to blue here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
+a {
+  color: #007BFF;  /* A pleasing blue color for hyperlinks */
+  text-decoration: none; /* No underlines on links */
+}
 
-  a:hover {
-    color: red;  /* set the text color to red here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
+a:hover {
+  color: #FF5733;  /* Change to a warm orange on hover */
+  text-decoration: none; /* No underlines on hover */
+}
 
-  body {
-  background-color: beige;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #F4F4F9; /* A soft, light grey for a modern feel */
+  color: #333333; /* Dark grey for better contrast and readability */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
   text-align: center;
-   }
+}
 
-  footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #555555; /* Slightly muted color for footer text */
+}
 
-  h1 {
-    margin-bottom: 0.5rem;
-    margin-top: 3rem;
-   }
+h1 {
+  color: #2C3E50; /* Deep blue for main heading */
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
 
-  h2 {
-    color: #075AAB
-   margin-bottom: 2.5rem;
-   margin-top: 2.5rem;
+h2 {
+  color: #1A5276; /* Muted blue for secondary headings */
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
 
-   }
+h3 {
+  color: #34495E; /* Darker shade for subheadings */
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
 
-  h3 {
-    margin-bottom: 0;
-    margin-top: 2rem;
-  }
+h4 {
+  color: #5D6D7E; /* Soft grey-blue for subheadings */
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
 
-  h4 {
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
+h5 {
+  color: #839192; /* Muted grey for smaller headings */
+  margin-top: 0.5rem;
+}
 
-  h5 {
-    margin-top: 0.5rem;
-  }
+hr {
+  border: 0;
+  height: 1px;
+  background: #D5D8DC; /* Light grey for dividers */
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
 
-  hr {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-  }
+/* This controls how the bullet points in the resume page look */
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: square; /* Stylish bullet points */
+}
 
-  /* this controls how the bullet points in the resume page looks */
-  ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-  }
+ul li {
+  margin-bottom: 0.5rem; /* Spacing between list items */
+  color: #4A4A4A; /* Medium grey for bullet text */
+}
